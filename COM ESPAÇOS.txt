@@ -1,0 +1,31 @@
+Mumidias INVOICE
+CNPJ 16 409 547000102
+
+Bill To
+Maizede Glaves
+CPF 01045209564
+Ship To
+32 4739749
+Rua Lumes Qd 34
+Lt9 NS Setor Leste 
+Grastilo
+Date
+Payment Terms
+Due Date
+PO Number
+Balance Due
+February 23 2023
+Debit
+June 20 2023
+324
+US 10885
+
+Item Quantity Rate Amount
+
+Refri limo 1 US 1523 US 1523
+Halawi 2 US 4589 US 9178
+Mandiopan 1 US 879 US 879
+
+Subtotal US 11580
+Discount 6 US 695
+Total US 10885

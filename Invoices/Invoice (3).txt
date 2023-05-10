@@ -1,0 +1,31 @@
+Mumidias INVOICE
+CNPJ: 16. 409. 547/0001-02
+
+Bill To:
+Maizede Glaves
+CPF: 010.452.095-64
+Ship To:
+(32) 473-9749
+Rua Lumes, Qd. 34,
+Lt.9, N/S, Setor Leste -
+Grastilo
+Date:
+Payment Terms:
+Due Date:
+PO Number:
+Balance Due:
+February 23, 2023
+Debit
+June 20, 2023
+324
+US$ 108,85
+
+Item Quantity Rate Amount
+
+Refri limão 1 US$ 15,23 US$ 15,23
+Halawi 2 US$ 45,89 US$ 91,78
+Mandiopan 1 US$ 8,79 US$ 8,79
+
+Subtotal: US$ 115,80
+Discount (6%): US$ 6,95
+Total: US$ 108,85

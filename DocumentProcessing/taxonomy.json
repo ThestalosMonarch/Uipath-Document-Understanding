@@ -1,0 +1,342 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "InvoicePOC.NoCategory.InvoiceTemplate1",
+      "Group": "Invoice POC",
+      "Category": "",
+      "Name": "Invoice Template 1",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Empresa",
+          "FieldName": "Empresa",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": []
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.CNPJ",
+          "FieldName": "CNPJ",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Regra1",
+                "Type": "StartsWith",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "CNPJ:",
+                "SetValues": []
+              }
+            ]
+          },
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Fatura",
+          "FieldName": "Fatura",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.DatadeCompra",
+          "FieldName": "Data de Compra",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Cliente",
+          "FieldName": "Cliente",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.CPF",
+          "FieldName": "CPF",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4e22cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Telefone",
+          "FieldName": "Telefone",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#abd142"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Endereço",
+          "FieldName": "Endereço ",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7ac793"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.ValorUnitário",
+          "FieldName": "Valor Unitário",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#22e3ff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Invoice POC",
+      "Categories": []
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}
