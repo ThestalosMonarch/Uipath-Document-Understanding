@@ -1,0 +1,31 @@
+Studio TechDL
+
+CNPJ: 86. 472.
+207/0001-97
+
+Bill To:
+
+Li Raguinte Diff
+
+(12) 907- 3481
+
+INVOICE
+
+# 97932-TA
+
+Date: Due Date: PO Number:
+
+05/05/2023 23/06/2023 858002
+
+Balance Due: US$ 1.639,73
+
+Item                Quantity   Rate         Amount    
+Gabinete acrílico   1          US$ 603,93   US$ 603,93
+Teclado Logitech    1          US$ 265,76   US$ 265,76
+SSD Kingstone       2          US$ 385,02   US$ 770,04
+
+Subtotal:   US$ 1.639,73
+Tax (0%):   US$ 0,00    
+Total:      US$ 1.639,73
+
+Notes: Notas: Produtos com garantia de 6 meses a apresentação dessa nota e caixa original.

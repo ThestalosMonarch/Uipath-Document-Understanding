@@ -58,11 +58,19 @@
             "Criticality": "Should",
             "Rules": [
               {
-                "Name": "Regra1",
-                "Type": "StartsWith",
+                "Name": "ComecaCom",
+                "Type": "Contains",
                 "LogicalOperator": "AND",
                 "ComparisonOperator": "Equals",
                 "Expression": "CNPJ:",
+                "SetValues": []
+              },
+              {
+                "Name": "Comprimento",
+                "Type": "FixedLength",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "21",
                 "SetValues": []
               }
             ]
@@ -87,15 +95,35 @@
               "Value": "a"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "ComecaCom",
+                "Type": "Contains",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "#",
+                "SetValues": []
+              },
+              {
+                "Name": "Tamanho",
+                "Type": "FixedLength",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "10",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": ""
         },
         {
           "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.DatadeCompra",
           "FieldName": "Data de Compra",
           "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
+          "Type": "Date",
+          "DeriveFieldsFormat": "dd/mm/yyyy",
           "Components": [],
           "SetValues": [],
           "Metadata": [
@@ -129,14 +157,26 @@
               "Value": "l"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "ComeçaCom",
+                "Type": "StartsWith",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "Bill To:",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": ""
         },
         {
           "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.CPF",
           "FieldName": "CPF",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -171,14 +211,26 @@
               "Value": "w"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Tamanho",
+                "Type": "FixedLength",
+                "LogicalOperator": "AND",
+                "ComparisonOperator": "Equals",
+                "Expression": "14",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": ""
         },
         {
           "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Endereço",
           "FieldName": "Endereço ",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Address",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -199,7 +251,7 @@
           "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.ValorUnitário",
           "FieldName": "Valor Unitário",
           "IsMultiValue": false,
-          "Type": "Text",
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -211,6 +263,111 @@
             {
               "Key": "Hotkey",
               "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.NomedoItem",
+          "FieldName": "Nome do Item",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Quantidade",
+          "FieldName": "Quantidade",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#af93d4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Taxa",
+          "FieldName": "Taxa",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d48866"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b75ccc"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "InvoicePOC.NoCategory.InvoiceTemplate1.TotaldoItem",
+          "FieldName": "Total do Item",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#486672"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
             }
           ],
           "RuleSet": null,

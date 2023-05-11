@@ -1,0 +1,31 @@
+Studio TechDL
+
+CNPJ: 86. 472.
+207/0001-97
+
+Bill To:
+
+Felipe Lopes Oliveira
+
+(61) 203-7233
+
+INVOICE
+
+# 62538-AN
+
+Date: Due Date: PO Number:
+
+02/05/2023 08/06/2023 973643
+
+Balance Due: US$ 1.797,76
+
+Item                        Quantity   Rate         Amount    
+Processador Intel Core i5   1          US$ 860,90   US$ 860,90
+Pente DDR 3                 2          US$ 208,43   US$ 416,86
+Memória Kingston            1          US$ 520,00   US$ 520,00
+
+Subtotal:   US$ 1.797,76
+Tax (0%):   US$ 0,00    
+Total:      US$ 1.797,76
+
+Notes: Notas: Produtos com garantia de 6 meses a apresentação dessa nota e caixa original.
