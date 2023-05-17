@@ -1,0 +1,21 @@
+Studio TechDL INVOICE
+CNPJ 86 472 207000197
+ 27021SZ
+
+Date 10052023
+Bill To Due Date 19062023
+Cheni Duarte Hokin
+12 302 3811 PO Number 403809
+Balance Due US 99739
+
+Item Quantity Rate Amount
+
+Monitor HP 19Polegadas 1 US 73163 US 73163
+Teclado Logitech 1 US 26576 US 26576
+
+Subtotal US 99739
+Tax 0 US 000
+Total US 99739
+
+Notes
+Notas Produtos com garantia de 6 meses a apresentao dessa nota e caixa original
